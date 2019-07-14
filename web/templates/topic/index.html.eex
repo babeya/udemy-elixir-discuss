@@ -8,7 +8,7 @@
         <%= link to: topic_path(@conn, :edit, topic), title: "Edit" do %>
           <i class="material-icons">edit</i>
         <% end %>
-        <%= link to: topic_path(@conn, :edit, topic), title: "Edit" do %>
+        <%= link to: topic_path(@conn, :delete, topic), title: "Delete", method: :delete do %>
           <i class="material-icons">delete</i>
         <% end %>
       </div>
