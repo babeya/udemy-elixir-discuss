@@ -1,0 +1,4 @@
+{
+  "editor.defaultFormatter": "saratravi.elixir-formatter",
+  "editor.formatOnSave": true
+}
